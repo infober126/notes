@@ -9,6 +9,6 @@ published: true
 
 # はじめての技術メモ
 
-このブログのtech カテゴリ最初の記事です。
+このブログの tech カテゴリ最初の記事です。
 
 Jekyll + Beautiful Jekyll テーマで構築しています。
