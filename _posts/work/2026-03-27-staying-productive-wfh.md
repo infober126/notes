@@ -4,7 +4,7 @@ title: "Staying Productive Working from Home"
 date: 2026-03-27
 category: work
 tags: [productivity, wfh, tips]
-published: true
+published: false
 ---
 
 Working from home has become a permanent fixture in many of our lives. After a few years of trial and error, here are the habits that have genuinely helped me stay productive.
