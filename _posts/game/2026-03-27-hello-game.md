@@ -4,7 +4,7 @@ title: "はじめてのゲーム記録"
 date: 2026-03-27
 category: game
 tags: [hello, game]
-published: true
+published: false
 ---
 
 # はじめてのゲーム記録
