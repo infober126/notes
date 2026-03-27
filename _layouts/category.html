@@ -1,0 +1,17 @@
+---
+layout: page
+---
+
+{% assign category_name = page.category_filter %}
+{% assign posts = site.posts | where: "category", category_name %}
+{% for post in posts %}
+  <article>
+    <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+    <p class="post-meta">{{ post.date | date: "%B %-d, %Y" }}</p>
+    {% if post.tags.size > 0 %}
+      {% for tag in post.tags %}<span class="label label-default">{{ tag }}</span> {% endfor %}
+    {% endif %}
+    <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+  </article>
+  <hr>
+{% endfor %}
