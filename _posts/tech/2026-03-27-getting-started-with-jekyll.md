@@ -4,7 +4,7 @@ title: "Getting Started with Jekyll"
 date: 2026-03-27
 category: tech
 tags: [jekyll, github-pages, web]
-published: true
+published: false
 ---
 
 Jekyll is a simple, blog-aware, static site generator. It takes text written in your favorite markup language and uses layouts to create a static website.
