@@ -1,0 +1,61 @@
+remote_theme: daattali/beautiful-jekyll
+
+title: "notes"
+description: "my personal notes & blog"
+
+url: "https://infober126.github.io"
+baseurl: "/notes"
+
+# Author information
+author:
+  name: "infober126"
+
+# Navigation links
+navbar-links:
+  Home: ""
+  Categories:
+    - Tech: "categories/tech"
+    - Diary: "categories/diary"
+    - Game: "categories/game"
+    - Work: "categories/work"
+
+# Categories and tags
+category_dir: categories
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-remote-theme
+
+# Pagination
+paginate: 10
+paginate_path: "/page:num/"
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      published: true
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor/
+
+# Google Fonts (loaded via custom CSS)
+# Font: Nunito (https://fonts.google.com/specimen/Nunito)
+
+# Custom CSS
+site-css:
+  - "/assets/css/custom.css"

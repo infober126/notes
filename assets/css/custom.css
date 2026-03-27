@@ -1,0 +1,115 @@
+/* =====================================================
+   Custom theme: pastel/cute palette + Google Fonts
+   ===================================================== */
+
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;1,400&family=Quicksand:wght@400;500;600;700&display=swap');
+
+/* ── Color palette ─────────────────────────────────── */
+:root {
+  --color-pink:     #f9c6d0; /* soft pink */
+  --color-lavender: #d5c8f0; /* lavender  */
+  --color-mint:     #b8ead7; /* mint      */
+  --color-bg:       #fdf6f9; /* warm white background */
+  --color-text:     #4a4a6a; /* dark lavender text */
+  --color-accent:   #c687b0; /* muted rose accent */
+  --color-nav-bg:   #e8d5f0; /* light lavender nav */
+}
+
+/* ── Base ──────────────────────────────────────────── */
+body {
+  font-family: 'Nunito', 'Quicksand', sans-serif;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}
+
+/* ── Navbar ────────────────────────────────────────── */
+.navbar {
+  background-color: var(--color-nav-bg) !important;
+  border-bottom: 2px solid var(--color-lavender);
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link {
+  color: var(--color-text) !important;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 600;
+}
+
+.navbar .nav-link:hover {
+  color: var(--color-accent) !important;
+}
+
+/* ── Header / intro banner ────────────────────────── */
+.intro-header {
+  background-color: var(--color-pink) !important;
+}
+
+.intro-header .page-heading h1,
+.intro-header .post-heading h1 {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  color: var(--color-text);
+}
+
+/* ── Blog post card ───────────────────────────────── */
+.post-preview {
+  border-left: 4px solid var(--color-lavender);
+  padding-left: 1rem;
+  margin-bottom: 2rem;
+}
+
+.post-preview a.post-title {
+  color: var(--color-accent);
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+}
+
+.post-preview a.post-title:hover {
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+/* ── Post content ─────────────────────────────────── */
+.blog-post h1, .blog-post h2, .blog-post h3 {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  color: var(--color-accent);
+}
+
+/* ── Tags & categories ────────────────────────────── */
+.label-default,
+.badge {
+  background-color: var(--color-mint);
+  color: var(--color-text);
+  border-radius: 20px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 0.8rem;
+  padding: 3px 10px;
+}
+
+/* ── Footer ───────────────────────────────────────── */
+footer {
+  background-color: var(--color-nav-bg) !important;
+  border-top: 2px solid var(--color-lavender);
+  color: var(--color-text) !important;
+  font-family: 'Nunito', sans-serif;
+}
+
+footer a {
+  color: var(--color-accent) !important;
+}
+
+/* ── Links ────────────────────────────────────────── */
+a {
+  color: var(--color-accent);
+}
+
+a:hover {
+  color: var(--color-text);
+}
+
+/* ── Horizontal rule ──────────────────────────────── */
+hr.small {
+  border-color: var(--color-lavender);
+}
