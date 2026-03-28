@@ -4,7 +4,7 @@ title: "notes"
 description: "my personal notes & blog"
 
 url: "https://infober126.github.io"
-baseurl: "/notes"
+baseurl: ""
 
 # Author information
 author:
