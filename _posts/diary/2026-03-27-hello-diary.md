@@ -4,7 +4,7 @@ title: "はじめての日記"
 date: 2026-03-27
 category: diary
 tags: [hello, diary]
-published: true
+published: false
 ---
 
 # はじめての日記

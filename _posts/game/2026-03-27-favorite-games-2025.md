@@ -4,7 +4,7 @@ title: "My Favorite Games of 2025"
 date: 2026-03-27
 category: game
 tags: [gaming, favorites, 2025]
-published: true
+published: false
 ---
 
 Gaming has been a huge part of my life this past year. Here are some titles that stood out for me in 2025.
